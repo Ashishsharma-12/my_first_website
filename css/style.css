@@ -1,9 +1,108 @@
 h1{
     margin-left: auto;
     padding-left: 10px;
+    color: navy;
+    background-color: oldlace;
 }
 body{
-    background: black;
-    color: chartreuse;
-    margin: 100px;
+    background: azure;
+    color: black;
+    margin: auto;
+    
 }
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    padding-right: 20px;
+    overflow: hidden;
+    background-color: rgb(43, 58, 48);
+    text-align: center;
+}
+
+nav li{
+    float: left;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    line-height: 20px;
+    border-bottom: 2px solid rgb(37, 5, 216);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav li:hover{
+    flex-grow: unset;
+    color: royalblue;
+    font-size: 20px;
+}
+
+.container{
+    /*class*/
+    background: rgb(61, 255, 245);
+    list-style: lower-alpha;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    background-image: url("../images/image1.jpg");
+}
+#content{
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    text-decoration: currentColor;
+}
+#content1{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    
+}
+.image_dec{
+    float: left;
+    padding: 10px;
+    margin-right: 30px;
+    width: 150px;
+    height: 175px;
+    border-style: ridge;
+    border-width: 10px;
+    vertical-align: text-top;
+    align-content: center;
+}
+.footer{
+    bottom: 0;
+    padding: 20px;
+    text-decoration: dashed;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(43, 58, 48);
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+      padding: 20px;
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+      padding: 20px;
+    background: #55ACEE;
+    color: white;
+  }
